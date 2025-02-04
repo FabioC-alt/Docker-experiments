@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-RUN apt-get install sl
+RUN apt update && apt install -y sl
 
 ENV PORT=8080
 
